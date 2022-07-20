@@ -150,6 +150,6 @@ public class BoardController {
         return boardListVO;
     }
     
-    // pull 테스트입니다.
+    // pull 
 }
 
