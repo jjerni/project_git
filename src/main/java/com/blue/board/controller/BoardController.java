@@ -64,7 +64,7 @@ public class BoardController {
         return "board/boardDetail";
     }    
     
-    /** 占쎈쐻占쎈셾占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 - 占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈짗占쎌굲占쎌돳  */
+    
     @RequestMapping(value = "/getBoardDetail")
     @ResponseBody
     public BoardVO getBoardDetail(HttpServletRequest request, HttpServletResponse response, BoardVO boardVO) throws Exception {
