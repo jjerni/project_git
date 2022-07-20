@@ -56,8 +56,8 @@ public class BoardController {
         
         return resultUtil;
     }
-    
-    /** 占쎈쐻占쎈셾占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 - 占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲占쎈쐻占쎈짗占쎌굲 占쎈쐻占쎈뼓占쎈쿈占쎌굲 */
+
+    /** 게시판 - 상세페이지 이동 */
     @RequestMapping( value = "/boardDetail")
     public String boardDetail(HttpServletRequest request, HttpServletResponse response) throws Exception{
         
